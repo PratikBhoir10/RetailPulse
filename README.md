@@ -90,3 +90,19 @@ These local tests do not validate Databricks OAuth, warehouse permissions, Unity
 - Optional audit/analytics tables appear only after the enhanced pipeline has been run in Databricks.
 - Customer metrics depend on the availability and quality of `CustomerID`; anonymous lines remain part of sales metrics but cannot be assigned to individual customers.
 - No stock-on-hand inventory or validated forecast is implemented by default.
+## Project Screenshots
+
+### Executive Overview
+![RetailPulse Executive Overview](screenshots/executive_overview.png)
+
+### Customer Analytics
+![RetailPulse Customer Analytics](screenshots/customer_analytics.png)
+
+### Databricks Catalog — Bronze, Silver and Gold Tables
+![Databricks Catalog](screenshots/databricks_catalog.png)
+
+### Bronze Transaction Data
+![Bronze Data Preview](screenshots/bronze_data_preview.png)
+
+### Monthly Sales Results
+![Gold Monthly Sales](screenshots/gold_monthly_sales.png)
