@@ -1,0 +1,5 @@
+Build status: assembled from the uploaded six-file ZIP and the previously working db.py.
+Python syntax parsing: passed for all .py files.
+Live Databricks test: NOT run in this environment.
+Full imports/tests: NOT run because Streamlit, PySpark and DuckDB are not installed in this execution environment.
+Before replacing your working folder: install requirements, set .env locally, test OAuth connection, test dashboard sections, and run optional tests with the UCI CSV path.
